@@ -104,10 +104,16 @@
     align-items: center;
     text-align: center;
 }
+.container-pokemon2{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
 .border{
     height: 300px;
     width: 300px;
-    margin-left: 260px;
+    margin-left: 240px;
     margin-top: 50px;
     transition: all 100ms;
     
@@ -335,4 +341,56 @@
     transition: transform 0.3s ease; /* Transición suave */
 }.image_about img:hover{
     transform: translateY(-10px); /* Eleva la imagen 10px hacia arriba */
+}
+/* Formulario de Contacto */
+.content{
+    height: 100%;
+    background: linear-gradient(var(--color_background-bottom), rgb(211, 92, 92));
+    padding-bottom: 133px;
+}
+.container-fluid{
+    display: flex;
+}
+.row{
+    margin-left: 300px;
+    margin-top: 230px;
+    padding: 40px;
+    background-color: rgb(114, 114, 114);
+    background: linear-gradient(var(--color_background-top), var(--color_background-bottom));
+    border-radius: 10px;
+}
+.row2{
+    margin-top: 320px;
+    margin-left: 160px;
+}
+.row2 img{
+    width: 70vh;
+    border-radius: 10px;
+}
+.gorm-group{
+    display:grid;
+    margin-top: 5px;
+}
+.gorm-group input{
+    width: 50vh;    
+    border-radius: 10px;
+}
+.gorm-group textarea{
+    width: 50vh;
+    border-radius: 10px;
+}
+.gorm-group select{
+    border-radius: 10px;
+}
+.gorm-group button{
+    background-color: rgb(211, 92, 92);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    padding: 6px;
+    margin: auto;
+    width: 20vh;    
+}
+.gorm-group button{
+
 }
