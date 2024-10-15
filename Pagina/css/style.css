@@ -373,15 +373,13 @@
 }
 .gorm-group input{
     width: 50vh;    
-    border-radius: 10px;
+
 }
 .gorm-group textarea{
     width: 50vh;
-    border-radius: 10px;
+
 }
-.gorm-group select{
-    border-radius: 10px;
-}
+
 .gorm-group button{
     background-color: rgb(211, 92, 92);
     border-radius: 10px;
@@ -391,6 +389,39 @@
     margin: auto;
     width: 20vh;    
 }
-.gorm-group button{
+.audio{
+    margin-bottom: 100px;
+}
+.content-users{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.table-users{
+    width: 60%;
+    margin-left: 650px;
+}
+.content-users table{
+     
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px 0;
 
+}
+.content-users th, td{
+    
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.content-users th {
+    background-color: rgb(211, 92, 92);
+    color: white;
+    
+}
+.table-users input{
+    margin: 10px;
+    margin-right: 1000px;
+    width: 550px;
 }
