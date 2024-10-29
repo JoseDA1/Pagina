@@ -98,10 +98,13 @@
 
 .container-pokemon{
     display: flex;
+    flex-wrap: wrap;
     height: 100vh;
     align-items: center;
     text-align: center;
     width: 100%;
+    padding-bottom: 20%;
+
 }
 .title{
     align-items: center;
@@ -127,13 +130,14 @@
     margin-left: 10%;
     margin-top: 50px;
     transition: all 100ms;
-    margin-bottom: 30px;
+
 }
 .flecha img{
     margin-top: 10px;
     width: 30px !important; 
 }
 .pokemon-1{
+    margin-top: 40%;
    background-color: rgb(255, 255, 255, 0);
    margin-left: 10px;
    border-radius: 10px;
